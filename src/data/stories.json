@@ -1,0 +1,87 @@
+[
+  {
+    "userId": 1,
+    "username": "alice",
+    "profilePic": "https://randomuser.me/api/portraits/women/1.jpg",
+    "stories": [
+      { "id": 101, "imageUrl": "src/assets/story_1.jpg" },
+      { "id": 102, "imageUrl": "src/assets/story_2.jpg" }
+    ]
+  },
+  {
+    "userId": 2,
+    "username": "bob", 
+    "profilePic": "https://randomuser.me/api/portraits/men/2.jpg",
+    "stories": [
+      { "id": 201, "imageUrl": "src/assets/story_3.jpg" }
+    ]
+  },
+  {
+    "userId": 3,
+    "username": "carla",
+    "profilePic": "https://randomuser.me/api/portraits/women/3.jpg", 
+    "stories": [
+      { "id": 301, "imageUrl": "src/assets/story_4.jpg" },
+      { "id": 302, "imageUrl": "src/assets/story_5.jpg" }
+    ]
+  },
+  {
+    "userId": 4,
+    "username": "david",
+    "profilePic": "https://randomuser.me/api/portraits/men/4.jpg",
+    "stories": [
+      { "id": 401, "imageUrl": "src/assets/story_6.jpg" }
+    ]
+  },
+  {
+    "userId": 5,
+    "username": "emma",
+    "profilePic": "https://randomuser.me/api/portraits/women/5.jpg",
+    "stories": [
+      { "id": 501, "imageUrl": "src/assets/story_7.jpg" },
+      { "id": 502, "imageUrl": "src/assets/story_8.jpg" }
+    ]
+  },
+  {
+    "userId": 6,
+    "username": "frank",
+    "profilePic": "https://randomuser.me/api/portraits/men/6.jpg",
+    "stories": [
+      { "id": 601, "imageUrl": "src/assets/story_9.jpg" }
+    ]
+  },
+  {
+    "userId": 7,
+    "username": "grace",
+    "profilePic": "https://randomuser.me/api/portraits/women/7.jpg",
+    "stories": [
+      { "id": 701, "imageUrl": "src/assets/story_10.jpg" },
+      { "id": 702, "imageUrl": "src/assets/story_11.jpg" }
+    ]
+  },
+  {
+    "userId": 8,
+    "username": "henry",
+    "profilePic": "https://randomuser.me/api/portraits/men/8.jpg",
+    "stories": [
+      { "id": 801, "imageUrl": "src/assets/story_12.jpg" }
+    ]
+  },
+  {
+    "userId": 9,
+    "username": "isla",
+    "profilePic": "https://randomuser.me/api/portraits/women/9.jpg",
+    "stories": [
+      { "id": 901, "imageUrl": "src/assets/story_13.jpg" },
+      { "id": 902, "imageUrl": "src/assets/story_14.jpg" }
+    ]
+  },
+  {
+    "userId": 10,
+    "username": "jack",
+    "profilePic": "https://randomuser.me/api/portraits/men/10.jpg",
+    "stories": [
+      { "id": 1001, "imageUrl": "src/assets/story_15.jpg" }
+    ]
+  }
+]
