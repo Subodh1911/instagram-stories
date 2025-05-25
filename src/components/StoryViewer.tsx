@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import type { Story, UserStoryGroup } from '../types/story';
+import type { UserStoryGroup } from '../types/story';
 import { useSwipeable } from 'react-swipeable';
 
 interface Props {
