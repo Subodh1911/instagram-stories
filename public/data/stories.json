@@ -4,8 +4,8 @@
     "username": "alice",
     "profilePic": "https://randomuser.me/api/portraits/women/1.jpg",
     "stories": [
-      { "id": 101, "imageUrl": "src/assets/story_1.jpg" },
-      { "id": 102, "imageUrl": "src/assets/story_2.jpg" }
+      { "id": 101, "imageUrl": "/assets/story_1.jpg" },
+      { "id": 102, "imageUrl": "/assets/story_2.jpg" }
     ]
   },
   {
@@ -13,7 +13,7 @@
     "username": "bob", 
     "profilePic": "https://randomuser.me/api/portraits/men/2.jpg",
     "stories": [
-      { "id": 201, "imageUrl": "src/assets/story_3.jpg" }
+      { "id": 201, "imageUrl": "/assets/story_3.jpg" }
     ]
   },
   {
@@ -21,8 +21,8 @@
     "username": "carla",
     "profilePic": "https://randomuser.me/api/portraits/women/3.jpg", 
     "stories": [
-      { "id": 301, "imageUrl": "src/assets/story_4.jpg" },
-      { "id": 302, "imageUrl": "src/assets/story_5.jpg" }
+      { "id": 301, "imageUrl": "/assets/story_4.jpg" },
+      { "id": 302, "imageUrl": "/assets/story_5.jpg" }
     ]
   },
   {
@@ -30,7 +30,7 @@
     "username": "david",
     "profilePic": "https://randomuser.me/api/portraits/men/4.jpg",
     "stories": [
-      { "id": 401, "imageUrl": "src/assets/story_6.jpg" }
+      { "id": 401, "imageUrl": "/assets/story_6.jpg" }
     ]
   },
   {
@@ -38,8 +38,8 @@
     "username": "emma",
     "profilePic": "https://randomuser.me/api/portraits/women/5.jpg",
     "stories": [
-      { "id": 501, "imageUrl": "src/assets/story_7.jpg" },
-      { "id": 502, "imageUrl": "src/assets/story_8.jpg" }
+      { "id": 501, "imageUrl": "/assets/story_7.jpg" },
+      { "id": 502, "imageUrl": "/assets/story_8.jpg" }
     ]
   },
   {
@@ -47,7 +47,7 @@
     "username": "frank",
     "profilePic": "https://randomuser.me/api/portraits/men/6.jpg",
     "stories": [
-      { "id": 601, "imageUrl": "src/assets/story_9.jpg" }
+      { "id": 601, "imageUrl": "/assets/story_9.jpg" }
     ]
   },
   {
@@ -55,8 +55,8 @@
     "username": "grace",
     "profilePic": "https://randomuser.me/api/portraits/women/7.jpg",
     "stories": [
-      { "id": 701, "imageUrl": "src/assets/story_10.jpg" },
-      { "id": 702, "imageUrl": "src/assets/story_11.jpg" }
+      { "id": 701, "imageUrl": "/assets/story_10.jpg" },
+      { "id": 702, "imageUrl": "/assets/story_11.jpg" }
     ]
   },
   {
@@ -64,7 +64,7 @@
     "username": "henry",
     "profilePic": "https://randomuser.me/api/portraits/men/8.jpg",
     "stories": [
-      { "id": 801, "imageUrl": "src/assets/story_12.jpg" }
+      { "id": 801, "imageUrl": "/assets/story_12.jpg" }
     ]
   },
   {
@@ -72,8 +72,8 @@
     "username": "isla",
     "profilePic": "https://randomuser.me/api/portraits/women/9.jpg",
     "stories": [
-      { "id": 901, "imageUrl": "src/assets/story_13.jpg" },
-      { "id": 902, "imageUrl": "src/assets/story_14.jpg" }
+      { "id": 901, "imageUrl": "/assets/story_13.jpg" },
+      { "id": 902, "imageUrl": "/assets/story_14.jpg" }
     ]
   },
   {
@@ -81,7 +81,7 @@
     "username": "jack",
     "profilePic": "https://randomuser.me/api/portraits/men/10.jpg",
     "stories": [
-      { "id": 1001, "imageUrl": "src/assets/story_15.jpg" }
+      { "id": 1001, "imageUrl": "/assets/story_15.jpg" }
     ]
   }
 ]
