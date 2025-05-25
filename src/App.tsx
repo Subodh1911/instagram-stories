@@ -8,7 +8,7 @@ function App() {
   const [selectedUser, setSelectedUser] = useState<UserStoryGroup | null>(null);
 
   useEffect(() => {
-    fetch('/src/data/stories.json')
+    fetch('/data/stories.json')
       .then((res) => res.json())
       .then(setUserStories)
       .catch(console.error);
