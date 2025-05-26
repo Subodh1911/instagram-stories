@@ -1,54 +1,83 @@
-# React + TypeScript + Vite
+# Instagram Stories Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application that replicates the core functionality of Instagram Stories, built with React, TypeScript, and Vite. This project demonstrates the implementation of a smooth, interactive story viewing experience with gesture support.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📱 Mobile-first design with responsive layout
+- 👆 Swipe gestures for story navigation
+- ⚡ Smooth animations and transitions using Framer Motion
+- 🎯 Type-safe development with TypeScript
+- 🧪 End-to-end testing with Playwright
+- 📦 Modern build tooling with Vite
 
-## Expanding the ESLint configuration
+## Tech Stack Choices
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Core Technologies
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **React 19**: Chosen for its robust ecosystem, efficient rendering with concurrent features, and widespread adoption. The latest version provides improved performance and new features.
+
+- **TypeScript**: Ensures type safety and better developer experience with enhanced code intelligence and early error detection. Essential for maintaining a scalable codebase.
+
+- **Vite**: Selected as the build tool for its exceptional development experience with instant server start and lightning-fast HMR (Hot Module Replacement). It's significantly faster than traditional bundlers.
+
+### Key Dependencies
+
+- **Framer Motion**: Powers smooth animations and transitions, providing a polished user experience that closely matches the native Instagram app.
+
+- **React Swipeable**: Implements touch and swipe gestures, essential for the mobile-first story navigation experience.
+
+### Development Tools
+
+- **ESLint**: Ensures code quality and consistency across the project.
+- **Playwright**: Provides reliable end-to-end testing capabilities with modern features and excellent debugging tools.
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Testing
+
+Run end-to-end tests with Playwright:
+```bash
+npx playwright test
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Project Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `/src` - Source code
+  - `/components` - React components
+  - `/types` - TypeScript type definitions
+- `/public/data` - Story data
+- `/tests` - End-to-end tests
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Performance Considerations
+
+- Vite's build optimization ensures minimal bundle sizes
+- React 19's concurrent features for improved rendering performance
+- Type-safe code reduces runtime errors
+- Efficient gesture handling with React Swipeable
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+
+This project is open source and available under the MIT license.
